@@ -1,0 +1,7 @@
+colorlist = []
+repeat ="Y"
+while repeat == "Y" :
+    color = input("Enter a color: ")
+    colorlist.append(color)
+    repeat = input("Do y0u went to add another?(Y/N)")
+print(colorlist)    
